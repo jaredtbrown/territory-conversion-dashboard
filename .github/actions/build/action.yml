@@ -7,5 +7,5 @@ runs:
       shell: bash
         
     - name: npm build
-      run: npm build
+      run: npm run build
       shell: bash
