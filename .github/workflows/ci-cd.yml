@@ -24,6 +24,7 @@ jobs:
       uses: ./.github/actions/build
 
   deploy:
+    needs: build
     runs-on: ubuntu-latest
 
     strategy:
