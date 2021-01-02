@@ -1,0 +1,11 @@
+name: "Build"
+runs:
+  using: "composite"
+  steps:
+    - name: npm install
+      run: npm install
+      shell: bash
+        
+    - name: npm build
+      run: npm build
+      shell: bash
